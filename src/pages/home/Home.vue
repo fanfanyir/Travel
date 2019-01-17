@@ -1,7 +1,6 @@
 <template>
   <div>
     <div class="home">Home</div>
-    <router-link to="/list">列表页</router-link>
   </div>
 </template>
 
