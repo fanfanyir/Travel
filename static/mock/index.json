@@ -1,0 +1,90 @@
+{
+  "ret": true,
+  "data": {
+    "swiperList": [{
+      "id": "0001",
+      "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20191/6bdcd1e29c06886d56ed847cd3f75ef6.jpg_750x200_9387edb7.jpg"
+    },
+    {
+      "id": "0002",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1812/d1/cd4f32e924a5a302.jpg_750x200_3d492837.jpg"
+    }],
+    "iconList": [{
+      "id": "0001",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+      "desc": "景点门票"
+    },
+    {
+      "id": "0002",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
+      "desc": "泡温泉"
+    },
+    {
+      "id": "0003",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+      "desc": "景点门票"
+    },
+    {
+      "id": "0004",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
+      "desc": "泡温泉"
+    },
+    {
+      "id": "0005",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+      "desc": "景点门票"
+    },
+    {
+      "id": "0006",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
+      "desc": "泡温泉"
+    },
+    {
+      "id": "0007",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+      "desc": "景点门票"
+    },
+    {
+      "id": "0008",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
+      "desc": "泡温泉"    
+    },
+    {
+      "id": "0009",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/e3/67df61427c8e1302.png",
+      "desc": "茶馆相声"
+    }],
+    "recommendList": [{
+      "id": "0001",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1508/fe/434ee530e21f1c11bad088e8cc8d5e93.water.jpg_200x200_912ce9f4.jpg",
+      "title": "鸟巢",
+      "desc": "北京市朝阳区国家体育场南路1号奥林匹克公园内"
+    }, {
+      "id": "0002",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1508/fe/434ee530e21f1c11bad088e8cc8d5e93.water.jpg_200x200_912ce9f4.jpg",
+      "title": "鸟巢",
+      "desc": "北京市朝阳区国家体育场南路1号奥林匹克公园内"
+    }, {
+      "id": "0003",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1508/fe/434ee530e21f1c11bad088e8cc8d5e93.water.jpg_200x200_912ce9f4.jpg",
+      "title": "鸟巢",
+      "desc": "北京市朝阳区国家体育场南路1号奥林匹克公园内"
+    }],
+    "weekendList": [{
+      "id": "0001",
+      "imgUrl": "http://img1.qunarzz.com/sight/source/1510/6e/1ea71e2f04e.jpg_r_640x214_aa6f091d.jpg",
+      "title": "京城有好泉",
+      "desc": "细数北京温泉，温暖你的冬天"
+    }, {
+      "id": "0002",
+      "imgUrl": "http://img1.qunarzz.com/sight/source/1510/6e/1ea71e2f04e.jpg_r_640x214_aa6f091d.jpg",
+      "title": "京城有好泉",
+      "desc": "细数北京温泉，温暖你的冬天"
+    }, {
+      "id": "0003",
+      "imgUrl": "http://img1.qunarzz.com/sight/source/1510/6e/1ea71e2f04e.jpg_r_640x214_aa6f091d.jpg",
+      "title": "京城有好泉",
+      "desc": "细数北京温泉，温暖你的冬天"
+    }]
+  }
+}
