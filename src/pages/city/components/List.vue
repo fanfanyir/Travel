@@ -64,7 +64,6 @@ export default {
   },
   methods: {
     handleCityClick (city) {
-      alert(123)
       this.changeCity(city)
       this.$router.push('/')
     },
