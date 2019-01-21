@@ -32,7 +32,7 @@ export default {
       const top = document.documentElement.scrollTop
       if (top > 50) {
         let opacity = top / 140
-        opacity = opacity > 1 ? 1 : opacity 
+        opacity = opacity > 1 ? 1 : opacity
         this.opacityStyle = { opacity }
         this.showAbs = false
       } else {
