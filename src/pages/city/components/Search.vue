@@ -65,11 +65,12 @@ export default {
     handleCityClick (city) {
       this.changeCity(city)
       this.$router.push('/')
+      this.keyword = ''
     },
     ...mapMutations(['changeCity'])
   },
   mounted () {
-    this.scroll = new Bscroll(this.$refs.search)
+    this.scroll = new Bscroll(this.$refs.search, { click: true })
   }
 }
 </script>
