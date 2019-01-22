@@ -12,7 +12,7 @@
       <router-link to="/">
         <div class="iconfont header-back">&#xe624;</div>
       </router-link>
-  </div>
+    </div>
   </div>
 </template>
 
@@ -65,6 +65,7 @@ export default {
     color: #fff
     font-size: .4rem
 .header-fixed-back
+  z-index: 2
   position: fixed
   top: 0
   left: 0
