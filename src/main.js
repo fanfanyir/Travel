@@ -10,6 +10,10 @@ import 'styles/border.css'
 import 'styles/iconfont.css'
 import 'swiper/dist/css/swiper.css'
 
+import iView from 'iview'
+import 'iview/dist/styles/iview.css'
+Vue.use(iView)
+
 Vue.config.productionTip = false
 fastClick.attach(document.body)
 Vue.use(VueAwesomeSwiper)

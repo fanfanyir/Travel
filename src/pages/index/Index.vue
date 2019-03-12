@@ -97,8 +97,6 @@
       <p>{{shopcarMesg}}</p>
     </div>
   </div>
-
-
 </template>
 
 <script>
@@ -135,9 +133,6 @@ export default {
     }
   },
   methods: {
-    // getHomeInfo () {
-    //   axios.get('/api/index.json?city=' + this.city).then(this.getHomeInfoSucc)
-    // },
     getInfoSucc (res, state) {
       res = res.data
       if (res.ret && res.data) {
@@ -151,7 +146,6 @@ export default {
     getSpecInfo () {
       axios.get('/api/getspec?productid=1').then(this.getInfoSucc(this.getspec))
     },
-
     modiPlacecar () {
       axios.post('/api/order/placecar').then(this.getInfoSucc(this.orderPlacecar))
     },
@@ -202,9 +196,6 @@ export default {
     getShopcarMesg () {
       axios.get('/api/shopcar/tomesg?userId=diefef').then(this.getInfoSucc(this.shopcarMesg))
     },
-
-
-      
     getShopesIndex () {
       axios.get('/api/index').then(this.getInfoSucc(this.shopesIndex))
     },

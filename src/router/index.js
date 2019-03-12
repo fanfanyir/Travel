@@ -5,11 +5,15 @@ Vue.use(Router)
 
 export default new Router({
   routes: [{
-    path: '/',
+    path: '/index',
     name: 'Index',
     component: () => import('@/pages/index/Index')
   }, {
-    path: '/home',
+    path: '/iviews',
+    name: 'iviews',
+    component: () => import('@/pages/index/IviewTry')
+  }, {
+    path: '/',
     name: 'Home',
     component: () => import('@/pages/home/Home')
   }, {
