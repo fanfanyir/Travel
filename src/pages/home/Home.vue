@@ -5,6 +5,11 @@
     <home-icons :list="iconList"></home-icons>
     <home-recommend :list="recommendList"></home-recommend>
     <home-weekend :list="weekendList"></home-weekend>
+    <select :v-model="owener" @change="updateChange()">
+      <option key="1">123</option>
+      <option key="2">456</option>
+      <option key="3">789</option>
+    </select>
   </div>
 </template>
 
@@ -23,7 +28,8 @@ export default {
       swiperList: [],
       iconList: [],
       recommendList: [],
-      weekendList: []
+      weekendList: [],
+      owener: 'zhangyifan'
     }
   },
   components: {
@@ -39,6 +45,9 @@ export default {
   methods: {
     getHomeInfo () {
       axios.get('/api/index.json?city=' + this.city).then(this.getHomeInfoSucc)
+    },
+    updateChange () {
+      console.log(111, this.owener)
     },
     getHomeInfoSucc (res) {
       res = res.data
